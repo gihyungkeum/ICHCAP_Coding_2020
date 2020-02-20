@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <title>WEB2 - CSS</title>
+  <meta charset="utf-8">
+</head>
+  <style media="screen">
+    h1{
+      font-size: 45px;
+      text-align: center;
+    }
+
+    a{
+      color:black;
+      text-decoration: none;
+    }
+
+    .saw{
+      color: gray;
+    }
+
+    /* .active{
+      color: red;
+    } */
+
+    #active{
+      color: red;
+    }
+
+  </style>
+<body>
+  <h1><a href="index.html">WEB2-CSS</a></h1>
+    <ol>
+    <li><a href="1.html" class="saw">HTML</a> </li>
+    <li><a href="2.html" class="saw active">CSS</a></li>
+     <!-- <li><a href="2.html" class="saw" id="active">CSS</a></li>  -->
+      <!-- class속성의 값은 여러개가 될 수 있고 듸어쓰기로 구분하며, 하나의 태그에는 여러개의 선택자가 들어 올수 있음.
+      같은 위상의 선택자가 여러개 있는 경우에는 가장 가까이에 있는 선택자가 우선순위를 갖는다. (eg) .saw와 .active.
+      이를 피하는 방법으로서 클라스 내 속성 값을 여렷 병기하기 보다는 id선택자로 빼서 별도 선언하는 것이 좋은 방법.
+      즉 class="saw" id="active" : id 선택자> class 선택자> tag 선택자 순, 동급인경우는 대상과 가까운순 -->
+
+    <li><a href="3.html">JavaScript</a></li>
+  </ol>
+
+  <h2>HTML이란 무엇인가</h2>
+  <p><a href="https://www.w3.org/" title="w3c" target="_blank">Hypertext Markup Language</a> (HTML) is the standard markup language for <strong>documents <u>designed</u> to </strong> be displayed in a web browser.
+  It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+  Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+  <img src="coding.jpg" width="100%" alt="photo">  HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive
+  forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural<p style="margin-top:20px"> semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+
+</body>
+
+</html>
+
+========================================================================================================================<br>
+
+<br>(검색) css selector....
+<a href="https://www.w3schools.com/cssref/css_selectors.asp">w3schools/selector</a>
